@@ -13,6 +13,7 @@ For detailed information and howto visit http://lucasjackson.me/eggshell
 ##Getting Started
 ```sh
 git clone https://github.com/neoneggplant/EggShell
+easy_install pycrypto
 cd EggShell
 python eggshell.py
 ```
@@ -35,6 +36,7 @@ python eggshell.py
 * **getvol**         : view mediaplayer volume
 * **isplaying**      : view mediaplayer info
 * **openurl**        : open url on device
+* **dial**           : dial number on device
 * **listapps**       : list bundle identifiers
 * **open**           : open app
 * **installpro**     : installs eggshellpro to device
